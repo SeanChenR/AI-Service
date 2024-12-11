@@ -1,0 +1,9 @@
+*.DS_Store
+*static./DS_Store
+*__pycache__/
+*.ipynb
+*官方網站文章清單_with_url.csv
+*UPDATE.md
+*.csv
+*.xlsx
+*.ini

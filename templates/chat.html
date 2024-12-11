@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEJ customer service</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      id="bootstrap-css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/left-side.css" />
+    <link rel="stylesheet" href="../static/stylefix.css" />
+    <link rel="stylesheet" href="../static/message.css" />
+    <link rel="stylesheet" href="../static/stylefix780.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="left-side">
+      <div class="topcontainer">
+        <div class="logobox">
+          <img src="../static/logo.svg" alt="" />
+        </div>
+        <div class="suggesttitlebox">
+          <div class="suggesttitle">精選提問</div>
+          <div class="suggestline"></div>
+        </div>
+      </div>
+      <div class="suggestcontainer">
+        <div class="suggestlist">
+          <button class="suggestbox" id="recommend_1">TEJ的主要業務是什麼?</button>
+          <button class="suggestbox" id="recommend_2">TEJ提供哪些服務?</button>
+          <button class="suggestbox" id="recommend_3">
+            TEJ提供哪些解決方案？
+          </button>
+          <button class="suggestbox" id="recommend_4">
+            TQuant LAB 量化分析資料集是什麼?
+          </button>
+          <button class="suggestbox" id="recommend_5">TEJ PRO產品試用</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid h-100">
+      <div class="col-md-8 col-xl-6 chat">
+        <div class="card">
+          <div class="messagecontainer">
+            <div id="messageFormeight" class="card-body msg_card_body">
+              <div class="d-flex justify-content-start mb-4">
+                <div class="img_cont_msg">
+                  <img
+                    src="https://d1fdloi71mui9q.cloudfront.net/hpjl93k9TaGKATsY5cnB_Zh02MiHnXpM88o10"
+                    class="rounded-circle user_img_msg"
+                  />
+                </div>
+                <div class="msg_cotainer">
+                  歡迎來到TEJ資料庫客服中心！我是您的智能客服T小J，有什麼我可以幫您的呢？您可以先查看左邊的資料庫熱搜排行是否有您想提問的關鍵字。
+                  <span class="msg_time">{{str_time}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <form id="messageArea" class="input-group">
+              <input
+                type="text"
+                id="text"
+                name="msg"
+                placeholder="Type your message..."
+                autocomplete="off"
+                class="form-control type_msg"
+                required
+              />
+              <div class="input-group-append">
+                <button
+                  type="submit"
+                  id="send"
+                  class="input-group-text send_btn"
+                >
+                  <i class="fas fa-location-arrow"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../static/js/script.js"></script>
+  </body>
+</html>

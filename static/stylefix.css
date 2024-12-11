@@ -1,0 +1,162 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+@media (max-width:5000px), screen{
+    body{
+        background-color: #EEF7FA;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+    }
+    .left-side{
+        width: 25vw;
+        min-width: 320px;
+        max-width: 378px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        gap: 24px;
+        flex-shrink: 0;
+        background-color: #EEF7FA;
+
+    }
+    .container-fluid{
+        height: 100%;
+        display: flex;
+        width: 75vw;
+        min-width: 767px;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-fluid.h-100{
+        height: 100%;
+        display: flex;
+        width: 75vw;
+        min-width: 767px;
+        background-color: #fff;
+        padding: 0px;
+        margin: 0px;
+
+        position: relative;
+    }
+    body > div.container-fluid.h-100 > div{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: contents;
+    }
+    body > div > div{
+        width: 100%;
+    }
+    .input-group-apopend{
+        min-width: 140px;
+        background-color: #bf9090;
+        border-radius: 16px;
+    }
+    body > div > div > div > div > div.card-footer{
+        display: flex;
+        width: 100%;
+        padding: 32px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: none;
+    }
+    .chat{
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+        height:100%;
+    }
+    .card{
+        max-height: 100vh;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .messagecontainer{
+        width: 84%;
+        min-width: 766px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #messageFormeight{
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        padding-bottom: 140px;
+        padding-top: 32px;
+    }
+
+    #messageArea{
+        min-width: 766px;
+        width: 84%;
+        display: flex;
+        height: 100%;
+        min-height: 56px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .card-footer{
+        max-height: 120px;
+        min-height: 80px;
+        height: 16vh;
+        width: 100%;
+        display: flex;
+        padding: 28px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        background-color: #EEF7FA !important;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-radius: 0px !important;
+    }
+    #messageArea > .form-control.type_msg{
+        height: 100%;
+        padding: 0px 24px;
+        margin: 0px;
+        border-radius: 12px;
+        border: 1px solid #C6CACB !important;
+        background-color: #F5FDFF !important;
+        color: #2C3436 !important;
+    }
+    .input-group-append{
+        width: 140px;
+        min-width: 140px;
+        min-height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px 0px;
+        background-color: #fd5c63;
+        border-radius: 16px;
+    }
+    .send_btn{
+        background-color: rgb(0, 0, 0,0) !important;
+    }
+}
